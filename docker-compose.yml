@@ -6,7 +6,7 @@ services:
     image: postgres:latest
     container_name: dev-postgresql
     environment:
-      POSTGRES_DB: mydatabase
+      POSTGRES_DB: dslist
       POSTGRES_PASSWORD: 1234567
     ports:
       - 5439:5432
